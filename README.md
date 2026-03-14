@@ -76,7 +76,7 @@ flowchart TD
     H --> I
     I -- "No Conflicts" --> K
     I -- "Conflicts" --> J
-    J --> F  %% after resolving, stage the merge
+    J --> F
     K --> L
     L --> M
     M -- "Approved" --> N
